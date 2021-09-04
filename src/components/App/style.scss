@@ -1,0 +1,10 @@
+@use 'src/styles/vars';
+
+.app {
+  background-color: vars.$lightGrey;
+  width: 96%;
+  margin: auto;
+  max-width: 40em;
+  min-height: 100vh;
+  padding: 1rem;
+}
