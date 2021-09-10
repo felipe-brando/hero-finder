@@ -1,5 +1,5 @@
 /* eslint-disable import/no-extraneous-dependencies */
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 // == Composant
 import Form from 'src/components/Form';
 import Counter from 'src/components/Counter';
@@ -13,6 +13,15 @@ import './style.scss';
 const App = () => {
   const [currentGroup, setCurrentGroup] = useState('Avengers');
   const [currentCountry, setCurrentCountry] = useState('USA');
+  const [characters, setCharacters] = useState([]);
+
+  useEffect(() => {
+    setCharacters(
+      data.characters.filter((character) => (
+        character.group === currentGroup && character.country === currentCountry
+      )),
+    );
+  }, [currentGroup, currentCountry]);
   return (
     <div className="app">
       <Form
@@ -23,8 +32,8 @@ const App = () => {
         currentCountry={currentCountry}
         setCurrentCountry={setCurrentCountry}
       />
-      <Counter message={`${data.characters.length} personnages trouvés`} />
-      <CharactersList charactersList={data.characters} />
+      <Counter message={`${characters.length} personnages trouvés`} />
+      <CharactersList charactersList={characters} />
     </div>
   );
 };
