@@ -32,7 +32,7 @@ const App = () => {
         currentCountry={currentCountry}
         setCurrentCountry={setCurrentCountry}
       />
-      <Counter message={`${characters.length} personnages trouvés`} />
+      <Counter charactersNumber={characters.length} />
       <CharactersList charactersList={characters} />
     </div>
   );
