@@ -18,37 +18,37 @@ export default {
       name: "Afrique du Sud",
     },
     {
-      id: 1,
+      id: 2,
       name: "Australie",
     }, 
     {
-      id: 1,
+      id: 3,
       name: "Norvège",
     }, 
     {
-      id: 1,
+      id: 4,
       name: "Royaume-Uni",
     },
     {
-      id: 4,
+      id: 5,
       name: "Russie",
     },
     {
-      id: 3,
+      id: 6,
       name: "Transia",
     },
     {
-      id: 2,
+      id: 7,
       name: "USA",
     }, 
     {
-      id: 5,
+      id: 8,
       name:"Wakanda",
     }, 
     
     
   ],
-  "heros": [
+  "characters": [
     {
       name: 'THOR',
       group: 'Avengers',
