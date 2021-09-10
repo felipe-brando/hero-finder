@@ -83,7 +83,7 @@ export default {
       name: 'BLACK WIDOW',
       group: 'Avengers',
       country: 'Russie',
-      avatar: 'https://terrigen-cdn-dev.marvel.com/content/prod/1x/123shh_com_crd_01.jpg'
+      avatar: 'https://terrigen-cdn-dev.marvel.com/content/prod/1x/011blw_com_crd_01.jpg'
     },
     {
       name: 'PROFESSOR X',
