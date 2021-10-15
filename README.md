@@ -2,7 +2,7 @@
 
 Single page app that makes it possible to find Marvel Characters by country of origin.
 
-The characters are sort by country and by group (X-men, Avengers, etc... 
+The characters are sort by country and by group (X-men, Avengers, etc...)
 
 This app was build with **REACT JS**.
 The styles were build with **Semantic UI** framework.
